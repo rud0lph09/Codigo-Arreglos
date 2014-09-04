@@ -1,7 +1,6 @@
-class inicio 
-{
-public static void main(String[] args) 
-{
-	testArregloEnteros.inicia();
-}
-}
+public class inicio {
+
+	public static void main(String[] args) {
+		testArregloEnteros.inicia();
+											}
+					}

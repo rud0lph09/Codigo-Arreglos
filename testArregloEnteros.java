@@ -1,15 +1,18 @@
-class testArregloEnteros{
+public class testArregloEnteros{
+	
 	public static void inicia() {
+	
 		//variables locales
 	arregloEnteros miarreglo;
 	int dato, opcion, max, pos=1;
-	max = Teclado.entero("TamaÃ±o del arreglo:");
+	max = Teclado.entero("Tamaño del arreglo:");
 	miarreglo = new arregloEnteros(max);
+	
 	do {
 		opcion = menu.desplegarMenu("1)insertar\n2)Listar\n3)Buscar\n4)Actualizar\n5)Borrar\n6)Ordenar\n7)Salir\n",9);
 		switch (opcion) {
 			case 1: if (miarreglo.validaEspacio()) {
-				dato = Teclado.entero("dato: ");
+				dato = Teclado.entero("Dato: ");
 				miarreglo.insertar(dato);
 			}
 			else {

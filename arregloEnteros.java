@@ -58,3 +58,17 @@ public int borrar(int pos){
 return -1;
 }
 }
+
+
+//Tarea#2 modificar los algoritmos que tengamos 
+//para que no solo funcione con la primera ocurrencia
+// sino que trabaje ya con todas las ocurrencias de un dato
+//jueves 28-agosto
+
+
+
+
+//Tarea #3 hacer una plantilla de entreros pero
+//para numeros ordenados donde no se permite dupolicidad 
+//de información, con el menú del test. Equipo de 3 personas 
+//se entrega 4 de septiemnbre.
