@@ -13,7 +13,7 @@ public class testArregloEnteros{
 		switch (opcion) {
 			case 1: if (miarreglo.validaEspacio()) {
 				dato = Teclado.entero("Dato: ");
-				miarreglo.insertar(dato);
+				verificaDato.verificar(miarreglo, dato);
 			}
 			else {
 				System.out.println("Error:...");

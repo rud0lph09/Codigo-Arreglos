@@ -15,7 +15,6 @@ public class arregloEnteros {
 
 public void insertar(int dato) //Int solo se modifica
 {
-	System.out.println("s");
 	indice++;
 	arreglo[indice] = dato;
 }
